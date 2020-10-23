@@ -1,5 +1,5 @@
 .btn {
-  background-color:#B99095;
+  background-color: rgb(167, 165, 165);
   margin-top: 20px;
   display: block;
 }
@@ -18,14 +18,15 @@ body {
   text-align: center;
   border-style: solid;
   border-width: 5px;
-  border-color:#B5E5CF;
+  border-color:#B99095;
+  text
 }
 h1 {
   text-align: center;
   margin: 10px;
   font-weight: bold;
   font-family: monospace;
-  background-color: darkgray;
+  background-color: #B99095;
 }
 #cSharpimage {
   float: left;

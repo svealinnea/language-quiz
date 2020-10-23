@@ -21,4 +21,10 @@ $(document).ready(function() {
       $("#js,#c").hide();
     }
   });
+  $(".btn").click(function() {
+    alert("Hey friend, thanks for stopping by! I hope that you enjoy your results. Cheers!")
+  });
+  $(".detailed").click(function(){
+    alert("Javascript allows you to implement complex features on webpages! Python is an interpreted, object-oriented and high-level programming language. C# is a general purpose programming language")
+  });
 });
