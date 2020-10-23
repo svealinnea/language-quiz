@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#Quiz").submit(function(){
+  $("form#Quiz").submit(function(event){
     event.preventDefault();
   const work = parseInt($("#work").val());
   const beverage = parseInt($("#beverage").val());
@@ -19,12 +19,22 @@ $(document).ready(function() {
   else if (value <= 10 || value <=0 ) {
       $("#p").show();
       $("#js,#c").hide();
-    }
+  }
   });
+
   $(".btn").click(function() {
     alert("Hey friend, thanks for stopping by! I hope that you enjoy your results. Cheers!")
   });
   $(".detailed").click(function(){
-    alert("Javascript allows you to implement complex features on webpages! Python is an interpreted, object-oriented and high-level programming language. C# is a general purpose programming language")
+    alert("Javascript allows you to implement complex features on webpages. Python is an interpreted, object-oriented and high-level programming language. C# is a general purpose programming language")
   });
+
+  //$("#formOne").submit(function(event) {
+    //const userNameInput = $("input#userName").val();
+
+    //$(".userName").text(userNameInput);
+
+    //$("#js").show();
+
+  //});
 });
