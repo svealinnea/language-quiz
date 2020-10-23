@@ -28,13 +28,4 @@ $(document).ready(function() {
   $(".detailed").click(function(){
     alert("Javascript allows you to implement complex features on webpages. Python is an interpreted, object-oriented and high-level programming language. C# is a general purpose programming language")
   });
-
-  //$("#formOne").submit(function(event) {
-    //const userNameInput = $("input#userName").val();
-
-    //$(".userName").text(userNameInput);
-
-    //$("#js").show();
-
-  //});
 });
