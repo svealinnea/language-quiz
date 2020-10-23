@@ -1,6 +1,7 @@
 .btn {
   background-color:#B99095;
   margin-top: 20px;
+  display: block;
 }
 .questions{
   margin: 10px;
@@ -9,12 +10,7 @@
 body {
   background-color:#fad4cf ;
 }
-#js {
-  display: none;
-}
-#p {
-  display: none;
-}
-#c {
+
+#js,#c,#p {
   display: none;
 }
