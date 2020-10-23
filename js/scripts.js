@@ -8,15 +8,15 @@ $(document).ready(function() {
   const vacation = parseInt($("#vacation").val());
   const value = work + beverage + burning +learning + vacation;
 
-  if (value <= 5) {
+  if (value <= 100 && value >= 10) {
     $("#js").show();
     $("#p,#c").hide(); 
   }
-  else if (value <= 10) {
+  else if (value >= 100 ) {
     $("#c").show();
     $("#js,#p").hide();
   }
-  else if (value <=15) {
+  else if (value <= 10 || value <=0 ) {
       $("#p").show();
       $("#js,#c").hide();
     }
