@@ -8,17 +8,31 @@
   color:#3D5B59 ;
 }
 body {
-  background-color:#fad4cf ;
+  background-color:#fad4cf;
 }
 
 #js,#c,#p {
   display: none;
-  margin-top: 20px;
-  background-color:#93d5d1;
+  margin: 20px;
   color:rgb(0, 0, 0);
   text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color:#B5E5CF;
 }
 h1 {
   text-align: center;
   margin: 10px;
+  font-weight: bold;
+  font-family: monospace;
+  background-color: darkgray;
+}
+#cSharpimage {
+  float: left;
+}
+.detailed {
+  text-align: center;
+  font-style: italic;
+  font-family: monospace;
+  font-size: 15px;
 }

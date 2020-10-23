@@ -8,11 +8,11 @@ $(document).ready(function() {
   const vacation = parseInt($("#vacation").val());
   const value = work + beverage + burning +learning + vacation;
 
-  if (value <= 100 && value >= 10) {
+  if (value <= 300 && value >= 10) {
     $("#js").show();
     $("#p,#c").hide(); 
   }
-  else if (value >= 100 ) {
+  else if (value >= 300 ) {
     $("#c").show();
     $("#js,#p").hide();
   }
