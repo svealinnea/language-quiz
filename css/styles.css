@@ -13,4 +13,12 @@ body {
 
 #js,#c,#p {
   display: none;
+  margin-top: 20px;
+  background-color:#93d5d1;
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin: 10px;
 }
